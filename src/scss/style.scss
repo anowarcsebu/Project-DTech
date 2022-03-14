@@ -1,0 +1,160 @@
+$comclr:#6F939D;
+$bgclr:#F8F9FA;
+
+$hfont:'Titillium Web', sans-serif;
+$pfont:'Barlow Condensed', sans-serif;
+
+#menubar{
+  .navbar{
+    opacity: 0.7;
+    border-bottom:3px solid $comclr;
+    border-top:3px solid $comclr
+  }
+  a{
+    text-decoration:none;
+    color:$comclr;
+  }
+  .d-inline{
+    font-family:$hfont;
+  }
+  .nav-item{
+    fornt-family:$pfont;
+    font-size:18px;
+    color:$comclr;
+    padding-right:10px;
+  }
+  .nav-item:last-child{
+    padding-right:0;
+  }
+}
+#home-section{
+  background:url('../img/bg.jpg') no-repeat center top;
+  background-attachment:fixed;
+  background-size:cover;
+  margin-top:68px;
+  .bg-overlay{
+    background:rgba(50,146,150,0.7);
+    padding-top:115px;
+    padding-bottom:150px;
+  }
+  .display-2{
+    font-family:$hfont;
+  }
+  .lead{
+    font-family:$pfont;
+  }
+  .btn{
+    border-radius:0;
+    font-family:$pfont;
+  }
+}
+#subscribe-section{
+  background:#252525;
+  .form-control{
+    border-radius:0;
+  }
+  .btn{
+    border-radius:0;
+    background:$comclr;
+  }
+  .btn:hover{
+    background:white;
+    color:$comclr;
+  }
+}
+#under-subscribe{
+  .card-body{
+    border:1px solid $comclr;
+  }
+  h3{
+    color:$comclr;
+    font-family:$hfont;
+  }
+  .lead{
+    font-family:$pfont;
+  }
+  .smarter{
+    background:$comclr;
+    color:white;
+  }
+}
+#about-service{
+  background:$bgclr;
+  .display-4{
+    color:$comclr;
+    font-family:$hfont;
+  }
+  .lead{
+    font-family:$pfont;
+  }
+  a{
+    text-decoration:none;
+    color:#252525;
+  }
+}
+#team-section{
+  h2{
+    font-family:$hfont;
+    color:$comclr;
+  }
+  h4{
+    font-family:$hfont;
+  }
+  h6{
+    font-family:$hfont;
+  }
+  .lead{
+    font-family:$pfont;
+  }
+  .rounded{
+    margin-top:-50px;
+  }
+  .fa{
+    font-size:21px;
+    color:$comclr;
+  }
+  .card:hover{
+    background:$comclr;
+    color:white;
+    .fa{
+      color:white;
+    }
+  }
+}
+#upper-footer{
+  background:$bgclr;
+  .fa{
+    border-radius:0;
+  }
+  .form-control{
+    border-radius:0;
+  }
+  .btn{
+    border-radius:0;
+    background:$comclr;
+  }
+  img{
+    margin-top:150px;
+  }
+  h2{
+    font-family:$hfont;
+  }
+  p{
+    font-family:$pfont;
+  }
+}
+#footer-section{
+  background:#252525;
+  .d-inline{
+    color:$comclr;
+    font-family:$hfont;
+  }
+  .designer{
+    font-family:$pfont;
+    color:#FFCA28;
+  }
+  a{
+    font-family:$pfont;
+    color:#FFCA28;
+  }
+}
