@@ -3,6 +3,13 @@
   border-bottom: 3px solid #6F939D;
   border-top: 3px solid #6F939D; }
 
+#menubar .nav-link {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold; }
+
+#menubar .nav-link:hover {
+  color: #FFCA28; }
+
 #menubar a {
   text-decoration: none;
   color: #6F939D; }
@@ -42,7 +49,8 @@
     border-radius: 0; }
   #subscribe-section .btn {
     border-radius: 0;
-    background: #6F939D; }
+    background: #6F939D;
+    font-family: "Titillium Web", sans-serif; }
   #subscribe-section .btn:hover {
     background: white;
     color: #6F939D; }
@@ -64,7 +72,7 @@
 #about-service {
   background: #F8F9FA; }
   #about-service .display-4 {
-    color: #6F939D;
+    color: #FFCA28;
     font-family: "Titillium Web", sans-serif; }
   #about-service .lead {
     font-family: "Barlow Condensed", sans-serif; }
@@ -106,13 +114,22 @@
     border-radius: 0; }
   #upper-footer .btn {
     border-radius: 0;
-    background: #6F939D; }
+    background: #6F939D;
+    color: #FFCA28;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: bold; }
+  #upper-footer .btn:hover {
+    background: #FFCA28;
+    color: #6F939D;
+    font-weight: bold; }
   #upper-footer img {
     margin-top: 150px; }
   #upper-footer h2 {
-    font-family: "Titillium Web", sans-serif; }
+    font-family: "Titillium Web", sans-serif;
+    color: #FFCA28; }
   #upper-footer p {
-    font-family: "Barlow Condensed", sans-serif; }
+    font-family: "Barlow Condensed", sans-serif;
+    color: #6F939D; }
 
 #footer-section {
   background: #252525; }

@@ -1,4 +1,5 @@
 $comclr:#6F939D;
+$secclr:#FFCA28;
 $bgclr:#F8F9FA;
 
 $hfont:'Titillium Web', sans-serif;
@@ -9,6 +10,13 @@ $pfont:'Barlow Condensed', sans-serif;
     opacity: 0.7;
     border-bottom:3px solid $comclr;
     border-top:3px solid $comclr
+  }
+  .nav-link{
+    font-family:$hfont;
+    font-weight:bold;
+  }
+  .nav-link:hover{
+    color:$secclr;
   }
   a{
     text-decoration:none;
@@ -56,6 +64,7 @@ $pfont:'Barlow Condensed', sans-serif;
   .btn{
     border-radius:0;
     background:$comclr;
+    font-family:$hfont;
   }
   .btn:hover{
     background:white;
@@ -81,7 +90,7 @@ $pfont:'Barlow Condensed', sans-serif;
 #about-service{
   background:$bgclr;
   .display-4{
-    color:$comclr;
+    color:$secclr;
     font-family:$hfont;
   }
   .lead{
@@ -132,15 +141,25 @@ $pfont:'Barlow Condensed', sans-serif;
   .btn{
     border-radius:0;
     background:$comclr;
+    color:$secclr;
+    font-family:$hfont;
+    font-weight:bold;
+  }
+  .btn:hover{
+    background:$secclr;
+    color:$comclr;
+    font-weight:bold;
   }
   img{
     margin-top:150px;
   }
   h2{
     font-family:$hfont;
+    color:$secclr;
   }
   p{
     font-family:$pfont;
+    color:$comclr;
   }
 }
 #footer-section{
@@ -151,10 +170,10 @@ $pfont:'Barlow Condensed', sans-serif;
   }
   .designer{
     font-family:$pfont;
-    color:#FFCA28;
+    color:$secclr;
   }
   a{
     font-family:$pfont;
-    color:#FFCA28;
+    color:$secclr;
   }
 }
