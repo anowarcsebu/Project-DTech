@@ -1,10 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&display=swap");
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Saira Condensed", sans-serif; }
+
+body p, body a, body .btn {
+  font-family: "Arima Madurai", cursive; }
+
+.form-control::placeholder {
+  font-family: "Arima Madurai", cursive; }
+
 #menubar .navbar {
   opacity: 0.7;
   border-bottom: 3px solid #6F939D;
   border-top: 3px solid #6F939D; }
 
 #menubar .nav-link {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Saira Condensed", sans-serif;
   font-weight: bold; }
 
 #menubar .nav-link:hover {
@@ -15,10 +26,10 @@
   color: #6F939D; }
 
 #menubar .d-inline {
-  font-family: "Titillium Web", sans-serif; }
+  font-family: "Saira Condensed", sans-serif; }
 
 #menubar .nav-item {
-  fornt-family: "Barlow Condensed", sans-serif;
+  fornt-family: "Arima Madurai", cursive;
   font-size: 18px;
   color: #6F939D;
   padding-right: 10px; }
@@ -34,13 +45,8 @@
     background: rgba(50, 146, 150, 0.7);
     padding-top: 115px;
     padding-bottom: 150px; }
-  #home-section .display-2 {
-    font-family: "Titillium Web", sans-serif; }
-  #home-section .lead {
-    font-family: "Barlow Condensed", sans-serif; }
   #home-section .btn {
-    border-radius: 0;
-    font-family: "Barlow Condensed", sans-serif; }
+    border-radius: 0; }
 
 #subscribe-section {
   background: #252525; }
@@ -48,8 +54,7 @@
     border-radius: 0; }
   #subscribe-section .btn {
     border-radius: 0;
-    background: #6F939D;
-    font-family: "Titillium Web", sans-serif; }
+    background: #6F939D; }
   #subscribe-section .btn:hover {
     background: white;
     color: #6F939D; }
@@ -58,11 +63,7 @@
   border: 1px solid #6F939D; }
 
 #under-subscribe h3 {
-  color: #6F939D;
-  font-family: "Titillium Web", sans-serif; }
-
-#under-subscribe .lead {
-  font-family: "Barlow Condensed", sans-serif; }
+  color: #6F939D; }
 
 #under-subscribe .smarter {
   background: #6F939D;
@@ -71,26 +72,13 @@
 #about-service {
   background: #F8F9FA; }
   #about-service .display-4 {
-    color: #FFCA28;
-    font-family: "Titillium Web", sans-serif; }
-  #about-service .lead {
-    font-family: "Barlow Condensed", sans-serif; }
+    color: #FFCA28; }
   #about-service a {
     text-decoration: none;
     color: #252525; }
 
 #team-section h2 {
-  font-family: "Titillium Web", sans-serif;
   color: #6F939D; }
-
-#team-section h4 {
-  font-family: "Titillium Web", sans-serif; }
-
-#team-section h6 {
-  font-family: "Titillium Web", sans-serif; }
-
-#team-section .lead {
-  font-family: "Barlow Condensed", sans-serif; }
 
 #team-section .rounded {
   margin-top: -50px; }
@@ -115,7 +103,6 @@
     border-radius: 0;
     background: #6F939D;
     color: #FFCA28;
-    font-family: "Titillium Web", sans-serif;
     font-weight: bold; }
   #upper-footer .btn:hover {
     background: #FFCA28;
@@ -124,20 +111,15 @@
   #upper-footer img {
     margin-top: 150px; }
   #upper-footer h2 {
-    font-family: "Titillium Web", sans-serif;
     color: #FFCA28; }
   #upper-footer p {
-    font-family: "Barlow Condensed", sans-serif;
     color: #6F939D; }
 
 #footer-section {
   background: #252525; }
   #footer-section .d-inline {
-    color: #6F939D;
-    font-family: "Titillium Web", sans-serif; }
+    color: #6F939D; }
   #footer-section .designer {
-    font-family: "Barlow Condensed", sans-serif;
     color: #FFCA28; }
   #footer-section a {
-    font-family: "Barlow Condensed", sans-serif;
     color: #FFCA28; }

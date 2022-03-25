@@ -1,9 +1,28 @@
+
 $comclr:#6F939D;
 $secclr:#FFCA28;
 $bgclr:#F8F9FA;
 
-$hfont:'Titillium Web', sans-serif;
-$pfont:'Barlow Condensed', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300&display=swap');
+
+$hfont:'Saira Condensed', sans-serif;
+$pfont:'Arima Madurai', cursive;
+
+body{
+  h1,h2,h3,h4,h5,h6{
+    font-family:$hfont;
+  }
+  p,a,.btn{
+    font-family:$pfont;
+  }
+}
+
+.form-control::placeholder{
+  font-family:$pfont;
+}
+
 #menubar{
   .navbar{
     opacity: 0.7;
@@ -44,15 +63,8 @@ $pfont:'Barlow Condensed', sans-serif;
     padding-top:115px;
     padding-bottom:150px;
   }
-  .display-2{
-    font-family:$hfont;
-  }
-  .lead{
-    font-family:$pfont;
-  }
   .btn{
     border-radius:0;
-    font-family:$pfont;
   }
 }
 #subscribe-section{
@@ -63,7 +75,6 @@ $pfont:'Barlow Condensed', sans-serif;
   .btn{
     border-radius:0;
     background:$comclr;
-    font-family:$hfont;
   }
   .btn:hover{
     background:white;
@@ -76,10 +87,6 @@ $pfont:'Barlow Condensed', sans-serif;
   }
   h3{
     color:$comclr;
-    font-family:$hfont;
-  }
-  .lead{
-    font-family:$pfont;
   }
   .smarter{
     background:$comclr;
@@ -90,10 +97,6 @@ $pfont:'Barlow Condensed', sans-serif;
   background:$bgclr;
   .display-4{
     color:$secclr;
-    font-family:$hfont;
-  }
-  .lead{
-    font-family:$pfont;
   }
   a{
     text-decoration:none;
@@ -102,17 +105,7 @@ $pfont:'Barlow Condensed', sans-serif;
 }
 #team-section{
   h2{
-    font-family:$hfont;
     color:$comclr;
-  }
-  h4{
-    font-family:$hfont;
-  }
-  h6{
-    font-family:$hfont;
-  }
-  .lead{
-    font-family:$pfont;
   }
   .rounded{
     margin-top:-50px;
@@ -141,7 +134,6 @@ $pfont:'Barlow Condensed', sans-serif;
     border-radius:0;
     background:$comclr;
     color:$secclr;
-    font-family:$hfont;
     font-weight:bold;
   }
   .btn:hover{
@@ -153,11 +145,9 @@ $pfont:'Barlow Condensed', sans-serif;
     margin-top:150px;
   }
   h2{
-    font-family:$hfont;
     color:$secclr;
   }
   p{
-    font-family:$pfont;
     color:$comclr;
   }
 }
@@ -165,14 +155,11 @@ $pfont:'Barlow Condensed', sans-serif;
   background:#252525;
   .d-inline{
     color:$comclr;
-    font-family:$hfont;
   }
   .designer{
-    font-family:$pfont;
     color:$secclr;
   }
   a{
-    font-family:$pfont;
     color:$secclr;
   }
 }
