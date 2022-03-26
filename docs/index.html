@@ -7,18 +7,18 @@
   <link rel="shortcut icon" type="image/x-icon" href="img/logo.png">
   <link rel="stylesheet" href="css/uikit.min.css">
   <title>DTech</title>
+  <link rel="stylesheet" href="css/navbar-fixed.css">
   <!-- FONT AWESOME CDN LINK -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- START OF BOOTSTRAP CDN LINK -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/navbar-fixed.css">
   <!-- END OF BOOTSTRAP CDN LINK -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <!-- MENUBAR -->
   <section id="menubar">
-      <nav class="navbar bg-light navbar-light navbar-expand-lg" uk-sticky="bottom: ~ .uk-height-large">
+      <nav class="navbar bg-light navbar-light navbar-expand-lg fixed-top">
         <div class="container">
             <a href="index.html"><img src="img/logo.png" alt="This Image About Brand Logo" class="img-fluid" width="50px;"><h2 class="d-inline mb-0 align-middle">DTech</h2></a>
             <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#dtech"><span class="navbar-toggler-icon"></span></button>
@@ -114,40 +114,63 @@
   </div>
 </section>
 <!-- ABOUT SERVICE -->
-<section id="about-service">
-  <div class="container py-5">
+<section id="about-service" class="bg-light py-5">
+  <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="display-4">Why This Service?</h2>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo laboriosam cum pariatur culpa, veniam dolorum?</p>
-      </div>
-      <div class="col-lg-12 mt-5">
-        <div class="card text-center" role="tablist">
-          <div class="card-header" role="tab" data-toggle="collapse" data-target="#section1">
-            <a href="#section1"><h5 class="mb-0"><i class="fa fa-arrow-circle-down mr-1"></i>Take Facilities</h5></a>
-          </div>
-          <div class="card-body collapse show" id="section1">
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptatibus quasi laborum doloremque neque consequatur, perspiciatis fuga dolores nostrum debitis placeat accusantium reiciendis cum tempore voluptas impedit nam blanditiis non aliquam consectetur odit hic, nisi.</p>
-          </div>
-        </div>
-      </div>
       <div class="col-lg-12">
-        <div class="card text-center" role="tablist">
-          <div class="card-header" role="tab" data-toggle="collapse" data-target="#section2">
-            <a href="#section2"><h5 class="mb-0"><i class="fa fa-arrow-circle-down mr-1"></i>Show Your Efficiency</h5></a>
+        <h2 class="display-4 text-center">Why This Service?</h2>
+        <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo laboriosam cum pariatur culpa, veniam dolorum?</p>
+        <div id="accordion" role="tablist" class="mt-5">
+          <div class="card text-center">
+            <div class="card-header" role="tab">
+              <h5 class="mb-0">
+                <a href="#section1" data-toggle="collapse">
+                  <i class="fa fa-arrow-circle-down"></i>
+                  Take Facilities
+                </a>
+              </h5>
+            </div>
+            <div class="collapse show" id="section1" data-parent="#accordion">
+              <div class="card">
+                <div class="card-body">
+                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eius dignissimos suscipit perspiciatis omnis error repellendus molestias quasi aspernatur, natus quam laborum ea, maiores quia!</p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="card-body collapse" id="section2">
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptatibus quasi laborum doloremque neque consequatur, perspiciatis fuga dolores nostrum debitis placeat accusantium reiciendis cum tempore voluptas impedit nam blanditiis non aliquam consectetur odit hic, nisi.</p>
+          <div class="card text-center">
+            <div class="card-header" role="tab">
+              <h5 class="mb-0">
+                <a href="#section2" data-toggle="collapse">
+                  <i class="fa fa-arrow-circle-down"></i>
+                  Show your Efficiency
+                </a>
+              </h5>
+            </div>
+            <div class="collapse" id="section2" data-parent="#accordion">
+              <div class="card">
+                <div class="card-body">
+                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eius dignissimos suscipit perspiciatis omnis error repellendus molestias quasi aspernatur, natus quam laborum ea, maiores quia!</p>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="col-lg-12">
-        <div class="card text-center" role="tablist">
-          <div class="card-header" role="tab" data-toggle="collapse" data-target="#section3">
-            <a href="#section3"><h5 class="mb-0"><i class="fa fa-arrow-circle-down mr-1"></i>Proved Your Innovation</h5></a>
-          </div>
-          <div class="card-body collapse" id="section3">
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptatibus quasi laborum doloremque neque consequatur, perspiciatis fuga dolores nostrum debitis placeat accusantium reiciendis cum tempore voluptas impedit nam blanditiis non aliquam consectetur odit hic, nisi.</p>
+          <div class="card text-center">
+            <div class="card-header" role="tab">
+              <h5 class="mb-0">
+                <a href="#section3" data-toggle="collapse">
+                  <i class="fa fa-arrow-circle-down"></i>
+                  Proved your Innovation
+                </a>
+              </h5>
+            </div>
+            <div class="collapse" id="section3" data-parent="#accordion">
+              <div class="card">
+                <div class="card-body">
+                  <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae eius dignissimos suscipit perspiciatis omnis error repellendus molestias quasi aspernatur, natus quam laborum ea, maiores quia!</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -284,9 +307,9 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script src="js/navbar-fixed.js"></script>
   <script src="js/uikit.min.js"></script>
   <script src="js/uikit-icons.min.js"></script>
+  <script src="js/navbar-fixed.js"></script>
   <!-- END JQUERY & JAVASCRIPT CDN LINK -->
 </body>
 </html>

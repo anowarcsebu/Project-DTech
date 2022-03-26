@@ -11,8 +11,7 @@ body p, body a, body .btn {
 
 #menubar .navbar {
   opacity: 0.7;
-  border-bottom: 3px solid #6F939D;
-  border-top: 3px solid #6F939D; }
+  box-shadow: 2px 2px 5px #3292a6; }
 
 #menubar .nav-link {
   font-family: "Saira Condensed", sans-serif;
@@ -75,7 +74,8 @@ body p, body a, body .btn {
     color: #FFCA28; }
   #about-service a {
     text-decoration: none;
-    color: #252525; }
+    color: #252525;
+    font-family: "Saira Condensed", sans-serif; }
 
 #team-section h2 {
   color: #6F939D; }
